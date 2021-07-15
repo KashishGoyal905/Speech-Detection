@@ -11,7 +11,7 @@ html {
 
   .words {
     max-width: 500px;
-    margin: 50px auto;
+    margin: 0px auto;
     background: white;
     border-radius: 5px;
     box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
@@ -21,7 +21,10 @@ html {
     position: relative;
     line-height: 3rem;
   }
-  
+  .webcam{
+    max-width: 600px;
+    max-height:400px;
+  }
   p {
     margin: 0 0 3rem;
   }
