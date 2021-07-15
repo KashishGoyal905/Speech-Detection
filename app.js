@@ -38,7 +38,7 @@ recognition.addEventListener('result', e => {
                 console.log(err);
             });
     }
-    if (transcript.includes('Close the camera' || 'close the camera.')) {
+    if (transcript.includes('close the camera' || 'Close the camera')) {
         webcam.stop()
         }
 });
